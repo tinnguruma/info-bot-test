@@ -1,0 +1,33 @@
+{
+    "//1": "Mafi Chat Server Groupsが作成しました",
+    "//2": "基本のBotリポジトリです",
+    "//3": "discord.js v12を使用しています",
+    "name": "bot-base",
+    "version": "1.4.0",
+    "description": "DiscordのBotのベースです。",
+    "main": "index.js",
+    "scripts": {
+        "now-build": "yum install libuuid-devel libmount-devel zlib-devel && cp /lib64/{libuuid,libmount,libblkid,libz}.so.1 node_modules/canvas/build/Release/ && yarn build"
+    },
+    "dependencies": {
+        "canvas": "^2.11.2",
+        "discord.js": "^12.5.1",
+        "express": "^4.17.1",
+        "node": "^16.10.0",
+        "node-fetch": "^3.3.2",
+        "querystring": "^0.2.1",
+        "ws": "^8.13.0"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "url": "https://github.com/mafiserver/bot-base"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "discord",
+        "bot"
+    ]
+}
